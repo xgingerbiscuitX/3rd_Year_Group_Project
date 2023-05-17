@@ -1,0 +1,14 @@
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\obj\Release\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\bin\Release\BusinessEntities.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\bin\Release\MaterialDesignColors.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\bin\Release\BusinessEntities.pdb
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\bin\Release\MaterialDesignColors.pdb
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CopyComplete
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\obj\Release\DataAccessLayer.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\DataAccessLayer\obj\Release\DataAccessLayer.pdb
