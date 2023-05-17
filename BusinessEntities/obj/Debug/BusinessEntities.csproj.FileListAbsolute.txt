@@ -1,0 +1,210 @@
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\StockReport.rdlc
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.dll.config
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignColors.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.presentation.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\EnvDTE.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\EnvDTE80.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\stdole.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.MSXML.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.xml
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.xml
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.xml
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.presentation.xml
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\RdlCompile.cache
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\RdlCompile.compiled
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csproj.CoreCompileInputs.cache
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csproj.CopyComplete
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\ldebi\Desktop\Team1Project\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csprojAssemblyReference.cache
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\StockReport.rdlc
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.dll.config
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignColors.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.presentation.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\EnvDTE.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\EnvDTE80.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\stdole.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.xml
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.xml
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.xml
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.presentation.xml
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csproj.CoreCompileInputs.cache
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csproj.CopyComplete
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\Brian\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csprojAssemblyReference.cache
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csprojAssemblyReference.cache
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csproj.CoreCompileInputs.cache
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\StockReport.rdlc
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.dll.config
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignColors.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.presentation.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\EnvDTE.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\EnvDTE80.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\stdole.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.xml
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.xml
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.xml
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.presentation.xml
+C:\Users\Xging\OneDrive\Documents\GitHub\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csproj.CopyComplete
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\StockReport.rdlc
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.dll.config
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignColors.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.Design.DLL
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.presentation.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\EnvDTE.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\EnvDTE80.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\stdole.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.xml
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.xml
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.xml
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\bin\Debug\zxing.presentation.xml
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csprojAssemblyReference.cache
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csproj.CoreCompileInputs.cache
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.csproj.CopyComplete
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\Calum\Desktop\Group Project\REPO\Team_1_Project\SoftwareEngineeringT1\BusinessEntities\obj\Debug\BusinessEntities.pdb
