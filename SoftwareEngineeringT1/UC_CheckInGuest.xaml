@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="SoftwareEngineeringT1.UC_CheckInGuest"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SoftwareEngineeringT1"
+             mc:Ignorable="d" >
+
+
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1025"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="600"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="assets/back1.jpg"/>
+        </Grid.Background>
+
+        <Grid>
+
+
+            <ListBox Name="ListBox_Rooms" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="White" HorizontalAlignment="Right" Height="264" Margin="0,168,106,168" VerticalAlignment="Center" Width="243"/>
+            <Button Content="Check-In" Background="#EB4F70" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="199" Margin="435,400,391,168" Click="Button_Click_CheckIn"/>
+            <Button Content="Back" Background="#EB4F70" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="199" Margin="436,454,390,114" Click="Button_Click_Back"/>
+
+
+            <TextBlock FontSize="20px" Foreground="White" HorizontalAlignment="Right" Height="23" TextWrapping="Wrap" Text="Rooms" VerticalAlignment="Top" Width="200" Margin="0,140,149,0"/>
+            <ListBox Background="White" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Left" Height="264"  VerticalAlignment="Center" Margin="150,168,0,168" Width="243"/>
+            <ListView x:Name="listView" Background="#FFFFFF" Height="306" Margin="150,126,632,168" VerticalAlignment="Center">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn DisplayMemberBinding="{Binding Title}"/>
+                        <GridViewColumn DisplayMemberBinding="{Binding Details}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <TextBlock FontSize="20px" Foreground="White" HorizontalAlignment="Left" Height="23" Margin="150,140,0,0" TextWrapping="Wrap" Text="Reservation Details" VerticalAlignment="Top" Width="200"/>
+            <TextBlock FontSize="50px" Foreground="White" HorizontalAlignment="Left" Height="65" Margin="80,10,0,0" TextWrapping="Wrap" Text="Check-In" VerticalAlignment="Top" Width="313"/>
+            <TextBlock FontSize="20px" Foreground="White" HorizontalAlignment="Left" Height="23" Margin="434,155,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top" Width="200"/>
+            <TextBlock FontSize="20px" Foreground="White" HorizontalAlignment="Left" Height="23" Margin="434,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"><Run Text="Last Name"/><LineBreak/><Run/></TextBlock>
+            <TextBlock FontSize="20px" Foreground="White" HorizontalAlignment="Left" Height="28" Margin="434,266,0,0" TextWrapping="Wrap" Text="Age" VerticalAlignment="Top" Width="200"/>
+            <TextBox Name="FirstName" Background="White" HorizontalAlignment="Left" Height="26" Margin="434,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+            <TextBox Name="LastName" Background="White" HorizontalAlignment="Left" Height="26" Margin="435,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+            <ComboBox Name="CB_Age" Background="White" HorizontalAlignment="Left" Height="26" Margin="434,297,0,0" VerticalAlignment="Top" Width="200">
+                <ComboBoxItem Content="Child" Tag="Child"/>
+                <ComboBoxItem Content="Adult" Tag ="Adult" IsSelected="True"/>
+            </ComboBox>
+        </Grid>
+    </Grid>
+</UserControl>
+    

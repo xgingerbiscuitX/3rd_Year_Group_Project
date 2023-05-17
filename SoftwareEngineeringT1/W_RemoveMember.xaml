@@ -1,0 +1,45 @@
+﻿<Window x:Class="SoftwareEngineeringT1.W_RemoveMember"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SoftwareEngineeringT1"
+        mc:Ignorable="d"
+        Title="W_RemoveMember" Height="450" Width="700">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="assets/back1.jpg"/>
+        </Grid.Background>
+        <Label Content="Confirmation" HorizontalContentAlignment="Center" Foreground="White" Grid.IsSharedSizeScope="True" FontSize="22" HorizontalAlignment="Center" FontFamily="OCR A Std" Margin="228,10,228,374" />
+        <Label Content="Are you sure you want to delete this Member?" HorizontalContentAlignment="Center" Foreground="White" Grid.IsSharedSizeScope="True" FontSize="16" HorizontalAlignment="Center" FontFamily="OCR A Std" Margin="143,50,106,339" Width="343"/>
+        <Label Content="Member No:" Foreground="White" HorizontalAlignment="Left" Margin="48,81,0,0" VerticalAlignment="Top"/>
+        <Label Content="First Name:" Foreground="White" HorizontalAlignment="Left" Margin="48,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="Last Name:" Foreground="White" HorizontalAlignment="Left" Margin="48,139,0,0" VerticalAlignment="Top"/>
+        <Label Content="Age:" Foreground="White" HorizontalAlignment="Left" Margin="48,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="Medical Condition:" Foreground="White" HorizontalAlignment="Left" Margin="48,197,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Phone:" Foreground="White" HorizontalAlignment="Left" Margin="356,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="Email:" Foreground="White" HorizontalAlignment="Left" Margin="356,114,0,0" VerticalAlignment="Top"/>
+        <Label Content="Member Type:" Foreground="White" HorizontalAlignment="Left" Margin="356,143,0,0" VerticalAlignment="Top"/>
+        <Label Content="Expirery Date :" Foreground="White" HorizontalAlignment="Left" Margin="356,175,0,0" VerticalAlignment="Top"/>
+
+        <TextBlock x:Name="MembNo" HorizontalAlignment="Left" Margin="185,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="fname" HorizontalAlignment="Left" Margin="185,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lname" HorizontalAlignment="Left" Margin="185,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Age" HorizontalAlignment="Left" Margin="185,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="MedCon" HorizontalAlignment="Left" Margin="185,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        
+        <TextBlock x:Name="Phone" HorizontalAlignment="Left" Margin="488,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="email" HorizontalAlignment="Left" Margin="488,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="MemType" HorizontalAlignment="Left" Margin="488,147,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="ExpireDate" HorizontalAlignment="Left" Margin="488,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        
+
+        <Button x:Name="Yes" Width="100" Height="40" FontFamily="Myriad Pro" FontSize="14"
+                    Content="Yes" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="1" Margin="129,291,363,88" IsDefault="True" Click="Yes_Click"
+                    />
+        <Button x:Name="No"  Width="100" Height="40" FontFamily="Myriad Pro" FontSize="14"
+                    Content="No" HorizontalAlignment="Center" VerticalAlignment="Center"   Padding="1" Margin="363,291,129,88" IsDefault="True" Click="No_Click"
+                    />
+    </Grid>
+</Window>

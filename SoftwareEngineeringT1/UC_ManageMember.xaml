@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="SoftwareEngineeringT1.UC_ManageMember"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SoftwareEngineeringT1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" >
+
+    <UserControl.Resources>
+        <Style TargetType="Button" x:Key="Rounded_Submit">
+            <Setter Property="Background" Value="#EB4F70"/>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}"
+                                BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <Style TargetType="TextBox" x:Key="Rounded_Input">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ScrollViewer x:Name="PART_ContentHost" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1025"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="600"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="assets/back1.jpg"/>
+        </Grid.Background>
+
+        <Grid Grid.Column="1">
+            <Button x:Name="Add_Member" Style="{StaticResource Rounded_Submit}" Width="129" Height="40" FontFamily="Myriad Pro" FontSize="14"
+                Content="Add Member" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="1" Margin="480,483,416,77" IsDefault="True" Click="Add_Member_Click" 
+                />
+
+            <Button x:Name="RemoveMember" Style="{StaticResource Rounded_Submit}" Width="129" Height="40" FontFamily="Myriad Pro" FontSize="14"
+                Content="Remove Member" HorizontalAlignment="Center" VerticalAlignment="Center"  Padding="1" Margin="651,483,245,77" IsDefault="True" Click="RemoveMember_Click" 
+                />
+            <Button x:Name="RenewMember" Style="{StaticResource Rounded_Submit}" Width="129" Height="40" FontFamily="Myriad Pro" FontSize="14"
+                Content="Renew Member" HorizontalAlignment="Center" VerticalAlignment="Center"  Padding="1" Margin="480,528,416,32" IsDefault="True" Click="RenewMember_Click"/>
+
+            <ListBox x:Name="DetailsListbox"  VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalContentAlignment="Stretch" Background="White" HorizontalAlignment="Left" Height="299"  VerticalAlignment="Top" Margin="480,179,0,122" Width="300">
+                <Label x:Name="Details_MemberID" Content="Membership ID:"/>
+                <Label x:Name="Details_FName" Content="First Name:"/>
+                <Label x:Name="Details_LName" Content="Last Name:"/>
+                <Label x:Name="Details_ExpiryDate" Content="Expiry Date:"/>
+                <Label x:Name="Details_Age" Content="Age:"/>
+                <Label x:Name="Details_MedicalConditions" Content="Medical Conditions:"/>
+                <Label x:Name="Details_Email" Content="Email:"/>
+                <Label x:Name="Details_Phone" Content="Phone:"/>
+                <Label x:Name="Details_InLeisureCentre" Content="In Leisure Centre:"/>
+                <Label x:Name="Details_AreaType" Content="Area Type:"/>
+            </ListBox>
+
+
+
+            <TextBlock FontSize="20px" Foreground="White" HorizontalAlignment="Right" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Margin="0,129,354,0"><Run Text="Member "/><Run Text="Details"/></TextBlock>
+            <ListBox x:Name="LeisureCentreMembers" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="LeisureCentreMembers_SelectionChanged" Background="White" HorizontalAlignment="Left" Height="299"  VerticalAlignment="Center" Margin="110,179,0,122" Width="240">
+            </ListBox>
+            <TextBlock FontSize="20px" Foreground="White" HorizontalAlignment="Left" Height="23" Margin="110,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Text="Search Members"/>
+            <TextBox x:Name="Searchtxt" Style="{StaticResource Rounded_Input}" Height="35" GotFocus="Searchtxt_GotFocus" Text="Search" Width="190" Background="White"  Foreground="#FF82959C" Margin="110,128,724.8,437" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <Button x:Name="SearchBtn" Style="{StaticResource Rounded_Submit}" Width="47" Height="35" FontFamily="Myriad Pro" FontSize="14"
+                 HorizontalAlignment="Center" VerticalAlignment="Center" Padding="1" Margin="303,130,674.8,435" IsDefault="True" Click="SearchBtn_Click"
+                >
+                <materialDesign:PackIcon Kind="Search"/>
+            </Button>
+
+            <TextBlock FontSize="50px" Foreground="White" HorizontalAlignment="Left" Height="68" Margin="110,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Manage "/><Run Text="Members"/></TextBlock>
+        </Grid>
+    </Grid>
+</UserControl>
+    

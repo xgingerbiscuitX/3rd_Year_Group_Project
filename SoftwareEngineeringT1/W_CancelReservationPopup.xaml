@@ -1,0 +1,112 @@
+﻿<Window x:Class="SoftwareEngineeringT1.W_CancelReservationPopup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SoftwareEngineeringT1"
+        mc:Ignorable="d"
+        WindowStyle="ToolWindow"
+        WindowStartupLocation="CenterScreen"
+
+
+        Title="Bloomfield Software System" Height="450" Width="600">
+
+
+
+
+
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="Rounded_Submit">
+            <Setter Property="Background" Value="#EB4F70"/>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}"
+                                BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <Style TargetType="TextBox" x:Key="Rounded_Input">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ScrollViewer x:Name="PART_ContentHost" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <!--Background-->
+    <!--<Window.Background>
+        <ImageBrush ImageSource="assets/mountains_2.png"/>
+    </Window.Background>-->
+
+
+    <!--Buttons-->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="assets/back1.jpg"/>
+        </Grid.Background>
+        <Label Content="Confirmation" HorizontalContentAlignment="Center" Foreground="White" Grid.IsSharedSizeScope="True" FontSize="22" HorizontalAlignment="Center" FontFamily="OCR A Std" Margin="102,10,102,300" />
+        <Label Content="Are you sure you want to cancel this reservation?" HorizontalContentAlignment="Center" Foreground="White" Grid.IsSharedSizeScope="True" FontSize="16" HorizontalAlignment="Center" FontFamily="OCR A Std" Margin="0,50,0,300"/>
+        <Label Content="Reservation No:" Foreground="White" HorizontalAlignment="Left" Margin="48,81,0,0" VerticalAlignment="Top"/>
+        <Label Content="First Name:" Foreground="White" HorizontalAlignment="Left" Margin="71,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="Last Name:" Foreground="White" HorizontalAlignment="Left" Margin="71,139,0,0" VerticalAlignment="Top"/>
+        <Label Content="Start Date:" Foreground="White" HorizontalAlignment="Left" Margin="75,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="End Date:" Foreground="White" HorizontalAlignment="Left" Margin="79,197,0,0" VerticalAlignment="Top"/>
+        <Label Content="Status:" Foreground="White" HorizontalAlignment="Left" Margin="96,284,0,0" VerticalAlignment="Top"/>
+        <Label Content="Check In Date:" Foreground="White" HorizontalAlignment="Left" Margin="55,226,0,0" VerticalAlignment="Top"/>
+        <Label Content="Check Out Date:" Foreground="White" HorizontalAlignment="Left" Margin="45,255,0,0" VerticalAlignment="Top"/>
+        <Label Content="Email:" Foreground="White" HorizontalAlignment="Left" Margin="406,172,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address Line 1:" Foreground="White" HorizontalAlignment="Left" Margin="356,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address Line 2:" Foreground="White" HorizontalAlignment="Left" Margin="356,114,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address Line 3:" Foreground="White" HorizontalAlignment="Left" Margin="356,143,0,0" VerticalAlignment="Top"/>
+        <Label Content="Phone:" Foreground="White" HorizontalAlignment="Left" Margin="400,201,0,0" VerticalAlignment="Top"/>
+        <Label Content="Special Requirements:" Foreground="White" HorizontalAlignment="Left" Margin="320,230,0,0" VerticalAlignment="Top"/>
+        <Label Content="Adults:" Foreground="White" HorizontalAlignment="Left" Margin="400,259,0,0" VerticalAlignment="Top"/>
+        <Label Content="Children:" Foreground="White" HorizontalAlignment="Left" Margin="390,288,0,0" VerticalAlignment="Top"/>
+
+        
+        <TextBlock x:Name="resNo" HorizontalAlignment="Left" Margin="185,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="fname" HorizontalAlignment="Left" Margin="185,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lname" HorizontalAlignment="Left" Margin="185,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="startDate" HorizontalAlignment="Left" Margin="185,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="endDate" HorizontalAlignment="Left" Margin="185,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="checkInDate" HorizontalAlignment="Left" Margin="185,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="checkOutDate" HorizontalAlignment="Left" Margin="185,259,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="status" HorizontalAlignment="Left" Margin="185,288,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="address1" HorizontalAlignment="Left" Margin="488,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="address2" HorizontalAlignment="Left" Margin="488,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="address3" HorizontalAlignment="Left" Margin="488,147,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="email" HorizontalAlignment="Left" Margin="488,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="phone" HorizontalAlignment="Left" Margin="488,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="specialReq" HorizontalAlignment="Left" Margin="488,234,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="noAdults" HorizontalAlignment="Left" Margin="488,263,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="noChildren" HorizontalAlignment="Left" Margin="488,292,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+
+        <StackPanel Orientation="Horizontal" Margin="0,300,0,0" Height="50" Width="400">
+            <Label x:Name="Error_lbl" Content="Incorrect login" HorizontalContentAlignment="Center" Grid.IsSharedSizeScope="True" FontSize="14" HorizontalAlignment="Center" Margin="0,10,0,0" FontFamily="Myriad Pro" Background="#00000000" Foreground="Red" Visibility="Hidden" />
+            <Button x:Name="Yes" Style="{StaticResource Rounded_Submit}" Width="100" Height="40" FontFamily="Myriad Pro" FontSize="14"
+                    Content="Yes" HorizontalAlignment="Center" VerticalAlignment="Center" Click="CONFIRM_Click" Padding="1" Margin="0,0,0,0" IsDefault="True" 
+                    />
+            <Button x:Name="No" Style="{StaticResource Rounded_Submit}" Width="100" Height="40" FontFamily="Myriad Pro" FontSize="14"
+                    Content="No" HorizontalAlignment="Center" VerticalAlignment="Center" Click="DENY_Click"  Padding="1" Margin="0,0,0,0" IsDefault="True" 
+                    />
+        </StackPanel>
+        
+
+
+    </Grid>
+</Window>

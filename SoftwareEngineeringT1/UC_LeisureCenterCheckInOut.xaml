@@ -1,0 +1,89 @@
+﻿<UserControl x:Class="SoftwareEngineeringT1.UC_LeisureCenterCheckInOut"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SoftwareEngineeringT1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" >
+
+    <UserControl.Resources>
+        <Style TargetType="Button" x:Key="Rounded_Submit">
+            <Setter Property="Background" Value="#EB4F70"/>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}"
+                                BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <Style TargetType="TextBox" x:Key="Rounded_Input">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ScrollViewer x:Name="PART_ContentHost" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1025"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="600"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="assets/back1.jpg"/>
+        </Grid.Background>
+
+        <Grid Grid.Column="1">
+
+
+            <ListBox Background="White" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Right" Height="298" Margin="0,166,255.8,136" VerticalAlignment="Center" Width="250">
+                <ListBoxItem Name="Finame" Content="First name: "/>
+                <ListBoxItem Name="Laname" Content="Last name: "/>
+                <ListBoxItem Name="Age" Content="Age: "/>
+                <ListBoxItem Name="Status" Content="Status: "/>
+                <ListBoxItem Name="Membership" Content="Membership: "/>
+                <ListBoxItem Name="Conditions" Content="Conditions: "/>
+            </ListBox>
+
+            <TextBlock FontSize="24px" Foreground="White" HorizontalAlignment="Right"  TextWrapping="Wrap" Text="Details" VerticalAlignment="Top"  Margin="0,134,433.8,0"/>
+            <ListBox Background="White" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Name="MemberList" HorizontalAlignment="Left" Height="422" SelectionChanged="MemberList_SelectionChanged"  VerticalAlignment="Center" Margin="116,168,0,10" Width="287">
+            </ListBox>
+            <TextBox x:Name="Searchtxt" GotFocus="Searchtxt_GotFocus"  Style="{StaticResource Rounded_Input}" Height="35" Text="Search" Background="White" VerticalContentAlignment="Center"   Foreground="#FF82959C" Margin="116,117,679.8,448" HorizontalContentAlignment="Left" Padding="15,0,0,0" />
+            <Button x:Name="Searchbtn" Style="{StaticResource Rounded_Submit}"  Width="53" Height="35" FontFamily="Myriad Pro" FontSize="14"
+                 HorizontalAlignment="Center" VerticalAlignment="Center" Padding="1" Margin="350,117,621.8,448" IsDefault="True" RenderTransformOrigin="-0.543,0.809" Click="Searchbtn_Click" 
+                >
+                <materialDesign:PackIcon Kind="Search"/>
+            </Button>
+            <Button x:Name="Check_in" Style="{StaticResource Rounded_Submit}" Width="119" Height="35" FontFamily="Myriad Pro" Content="Check in" FontSize="14"
+                 HorizontalAlignment="Center" VerticalAlignment="Center" Padding="1" Margin="519,469,386.8,96" IsDefault="True" RenderTransformOrigin="-0.543,0.809" Click="Check_in_Click"
+                />
+            <Button x:Name="Check_Out" Style="{StaticResource Rounded_Submit}" Width="126" Height="35" FontFamily="Myriad Pro" Content="Check out" FontSize="14"
+                 HorizontalAlignment="Center" VerticalAlignment="Center" Padding="1" Margin="643,469,255.8,96" IsDefault="True" RenderTransformOrigin="-0.543,0.809" Click="Check_Out_Click"
+                />
+            <Button x:Name="Check_Occupancy" Style="{StaticResource Rounded_Submit}" Width="249" Height="35" FontFamily="Myriad Pro" Content="Check occupancy" FontSize="14"
+                 HorizontalAlignment="Center" VerticalAlignment="Center" Padding="1" Margin="520,509,255.8,56" IsDefault="True" RenderTransformOrigin="-0.543,0.809" Click="Check_Occupancy_Click"
+                />
+            <TextBlock FontSize="50px" Foreground="White" HorizontalAlignment="Left" Height="65" Margin="116,10,0,0" TextWrapping="Wrap" Text="Check in/out Leisure Center" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</UserControl>
+    

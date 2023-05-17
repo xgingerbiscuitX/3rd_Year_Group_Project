@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="SoftwareEngineeringT1.UC_MoveStock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SoftwareEngineeringT1"
+             mc:Ignorable="d" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="1025"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="600"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Column ="1">
+            <Button Content="Move Stock" Background="#EB4F70" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="180" Margin="607,460,0,0" Foreground="LightGray" Height="50" FontSize="25px" Click="Button_Click" />
+
+            <TextBlock  Foreground="White"  FontSize="50px"  HorizontalAlignment="Left" Height="65" Margin="135,10,0,0" Text="Move Stock" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" />
+            <TextBlock Foreground="White" HorizontalAlignment="Left" Margin="135,82,0,0" Text="Search " TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="107" FontSize="30px"/>
+            <TextBox x:Name="Searchtxt" Text="Search" FontSize="15" Background="White" HorizontalAlignment="Left" Height="35" Margin="245,85,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="200" TextChanged="Searchtxt_TextChanged" />
+            <ListBox x:Name="Detailbox" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="White" HorizontalAlignment="Left" Height="264"  VerticalAlignment="Center" Margin="135,177,0,159" Width="200" SelectionChanged="Detailbox_SelectionChanged"/>
+            <TextBlock Text="Details:" TextWrapping="Wrap" Foreground="White" Margin="135,134,774,428" FontSize="30"/>
+            <TextBlock Margin="512,172,293,388"  Foreground="White" Text="Amount in Bar:" TextWrapping="Wrap" FontSize="20px" Height="40"  Width="220"/>
+            <TextBox x:Name="barbox" TextWrapping="Wrap" FontSize="20" Margin="732,168,238,388" Background="white" IsReadOnly="True" TextAlignment="Center" RenderTransformOrigin="0.714,0.293"/>
+
+            <TextBlock  Foreground ="White" Text="Amount in Storage:" FontSize="20" Height="50" Margin="512,268,293,282" />
+            <TextBox x:Name="storagebox" IsReadOnly="True" TextWrapping="Wrap" FontSize="20" Margin="732,264,238,292" Background="white" TextAlignment="Center" RenderTransformOrigin="0.714,0.293"/>
+
+            <TextBlock  Foreground ="White" Text="Amount being moved:" FontSize="20px" Margin="512,364,293,192"/>
+            <TextBox x:Name="movebox" TextWrapping="Wrap" FontSize="20" Margin="732,360,238,196" Background="white"  TextAlignment="Center"/>
+        </Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="assets/back1.jpg"/>
+        </Grid.Background>
+
+
+    </Grid>
+</UserControl>
+

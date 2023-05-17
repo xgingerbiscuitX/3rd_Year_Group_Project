@@ -1,0 +1,33 @@
+﻿<Window x:Class="SoftwareEngineeringT1.SetDates"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SoftwareEngineeringT1"
+        mc:Ignorable="d"
+        Title="SetDates" Height="450" Width="850">
+    <Grid Background="#3030FF">
+        <Calendar Name="Calander" HorizontalAlignment="Left" Margin="54,21,0,0" VerticalAlignment="Top" >
+            <Calendar.CalendarDayButtonStyle>
+                <Style TargetType="CalendarDayButton" BasedOn="{StaticResource MaterialDesignCalendarDayButton}">
+                    <Style.Triggers>
+                        <Trigger Property="IsBlackedOut" Value="True">
+                            <Setter Property="Background" Value="Red"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Calendar.CalendarDayButtonStyle>
+        </Calendar>
+
+        <TextBlock FontSize="20px" Foreground="White"  HorizontalAlignment="Right" Height="26" TextWrapping="Wrap" Text="Start Date" VerticalAlignment="Top" Width="96" Margin="0,35,382.2,0"/>
+        <TextBlock Name="TB_StartDate" Background="White" FontSize="15px" HorizontalAlignment="Right" Height="21" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164" Margin="0,65,313.2,0"/>
+        <Button Name="B_StartDate" Content="Set Date" HorizontalAlignment="Left" Margin="365,95,0,0" VerticalAlignment="Top" Width="165" Height="28" Click="B_StartDate_Click"/>
+
+        <TextBlock FontSize="20px" Foreground="White"  HorizontalAlignment="Right" Height="31" TextWrapping="Wrap" Text="End Date" VerticalAlignment="Top" Width="90" Margin="0,150,388.2,0" RenderTransformOrigin="0.411,3.043"/>
+        <TextBlock Name="TB_EndDate" Background="White" FontSize="15px" HorizontalAlignment="Right" Height="21" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="164" Margin="0,179,314.2,0"/>
+        <Button Name="B_EndDate" Content="Set Date" HorizontalAlignment="Left" Margin="365,210,0,0" VerticalAlignment="Top" Width="165" Height="28" Click="B_EndDate_Click"/>
+
+        <Button Name="B_MakeReservation" Content="Set room unavailability" HorizontalAlignment="Left" Margin="355,350,0,0" VerticalAlignment="Top" Width="185" Height="28" Click="Set_Room_Unavailability_Click"/>
+        <Button Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="555,350,0,0" VerticalAlignment="Top" Width="185" Height="28" Click="Cancel_Click"/>
+    </Grid>
+</Window>

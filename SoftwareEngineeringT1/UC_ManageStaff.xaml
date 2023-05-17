@@ -1,0 +1,85 @@
+﻿<UserControl x:Class="SoftwareEngineeringT1.UC_ManageStaff"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SoftwareEngineeringT1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" >
+
+    <UserControl.Resources>
+        <Style TargetType="Button" x:Key="Rounded_Submit">
+            <Setter Property="Background" Value="#EB4F70"/>
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}"
+                                BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <Style TargetType="TextBox" x:Key="Rounded_Input">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ScrollViewer x:Name="PART_ContentHost" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1025"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="600"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="assets/back1.jpg"/>
+        </Grid.Background>
+
+        <Grid Grid.Column="1">
+
+            <Button x:Name="DeleteSelected" Style="{StaticResource Rounded_Submit}" Width="129" Height="40" FontFamily="Myriad Pro" FontSize="14" Content="Delete selected" HorizontalAlignment="Center" VerticalAlignment="Center"  Padding="1" Margin="605,527,290.8,33" IsDefault="True" Click="DeleteSelected_Click"/>
+
+            <Button x:Name="ChangePermissions" Style="{StaticResource Rounded_Submit}" Width="134" Height="40" FontFamily="Myriad Pro" FontSize="14" Content="Change Permissions" HorizontalAlignment="Center" VerticalAlignment="Center"  Padding="1" Margin="739,527,151.8,33" IsDefault="True" Click="ChangePermissions_Click" 
+                />
+
+            <ListBox x:Name="Staff_Details" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="White" HorizontalAlignment="Right" Height="343" Margin="0,179,117.8,78" VerticalAlignment="Center" Width="302" RenderTransformOrigin="0.491,0.514">
+                
+            </ListBox>
+
+
+
+            <TextBlock FontSize="20px" Foreground="White" HorizontalAlignment="Right" Height="23" TextWrapping="Wrap" Text="Staff Details" VerticalAlignment="Top" Width="200" Margin="0,151,219.8,0"/>
+            <ListBox x:Name="StaffListbox" VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="White" SelectionChanged="StaffListbox_Selected" HorizontalAlignment="Left" Height="411"  VerticalAlignment="Center" Margin="110,179,0,10" Width="292">
+            </ListBox>
+            <TextBlock FontSize="20px" Foreground="White" HorizontalAlignment="Left" Height="23" Margin="110,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"><Run Text="Search Staff"/><LineBreak/><Run/></TextBlock>
+            <TextBox x:Name="Searchtxt" GotFocus="Searchtxt_GotFocus" Style="{StaticResource Rounded_Input}" Height="35" Text="Search" Width="240" Background="White"  Foreground="#FF82959C" Margin="110,128,674.8,437" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <Button x:Name="SearchBtn" Style="{StaticResource Rounded_Submit}" Width="47" Height="35" FontFamily="Myriad Pro" FontSize="14"
+                 HorizontalAlignment="Center" VerticalAlignment="Center" Padding="1" Margin="355,128,622.8,437" IsDefault="True" Click="Search_Click"
+                >
+                <materialDesign:PackIcon Kind="Search"/>
+            </Button>
+            <TextBlock FontSize="50px" Foreground="White" HorizontalAlignment="Left" Height="65" Margin="110,10,0,0" TextWrapping="Wrap" Text="Manage Staff" VerticalAlignment="Top"/>
+            <Button x:Name="AddStaff_Button" Style="{StaticResource Rounded_Submit}" Width="129" Height="40" FontFamily="Myriad Pro" FontSize="14"
+                Content="Add Staff" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="1" Margin="437,268,458.8,292" IsDefault="True" Click="AddStaff_Button_Click" 
+                />
+        </Grid>
+    </Grid>
+</UserControl>
+    

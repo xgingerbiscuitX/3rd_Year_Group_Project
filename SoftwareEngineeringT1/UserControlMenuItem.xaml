@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="SoftwareEngineeringT1.UserControlMenuItem"
+               xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" >
+
+
+
+    <Grid Width="220">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+        <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled"  FontFamily="Champagne &amp; Limousines" FontSize="14" />
+            <ListViewItem x:Name="ListViewItemMenu" Content="{Binding Path=Header}"  />
+        <StackPanel>
+            <Button HorizontalAlignment="Center" Margin="10" Width="30" Height="30" Padding="0">
+                    <materialDesign:PackIcon Kind="{Binding Path=Icon}" Height="15" />
+                </Button>
+            </StackPanel>
+        <Expander x:Name="ExpanderMenu" HorizontalAlignment="left" Header="{Binding Path=Header}" FontSize="14"  IsExpanded="False"  Grid.Column="1" Width="170"  Background="Transparent">
+            
+                <ListView x:Name="CloseButtonListView"  ItemsSource="{Binding Path=SubItems}"   ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="-45,0,-0.4,0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Button Content="{Binding Path=Name}" Tag="{Binding Path=Screen}" Click="Option_Click" Width="200"  />
+                    </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+        </Expander>
+    </Grid>
+</UserControl>

@@ -1,0 +1,101 @@
+﻿<UserControl x:Class="SoftwareEngineeringT1.UC_AddStaff"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SoftwareEngineeringT1"
+             mc:Ignorable="d" >
+    <UserControl.Resources>
+
+
+        <Style TargetType="{x:Type TextBox}" x:Key="Rounded_Input">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ScrollViewer x:Name="PART_ContentHost" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="{x:Type ComboBox}" x:Key="Rounded_Input_Combo">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ScrollViewer x:Name="PART_ContentHost" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1025"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="600"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="assets/back1.jpg"/>
+        </Grid.Background>
+
+        <Grid Grid.Column="1"/>
+
+        <Grid>
+            <Button x:Name="AddStaffMember_Button" Content="Add Staff Member" Background="#EB4F70" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="172" Margin="263,333,589.8,235" Click="AddStaffMember_Button_Click"/>
+            <TextBlock Foreground="LightGray" FontSize="25px" HorizontalAlignment="Left" Height="30" Margin="134,85,0,0" TextWrapping="Wrap" Text="Staff Details" VerticalAlignment="Top" Width="200" RenderTransformOrigin="0.5,1.627"/>
+            <TextBlock Foreground="LightGray" FontSize="50px" HorizontalAlignment="Left" Height="65" Margin="134,10,0,0" TextWrapping="Wrap" Text="Add Staff" VerticalAlignment="Top" Width="313"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="First Name:" HorizontalAlignment="Left" Margin="176,124,0,0" VerticalAlignment="Top"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="Last Name:" HorizontalAlignment="Left" Margin="177,157,0,0" VerticalAlignment="Top"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="Street Address:" HorizontalAlignment="Left" Margin="151,190,0,0" VerticalAlignment="Top"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="E-Mail:" HorizontalAlignment="Left" Margin="204,223,0,0" VerticalAlignment="Top"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="Next To Kin Phone No:" HorizontalAlignment="Left" Margin="471,157,0,0" VerticalAlignment="Top"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="Next To Kin Relationship:" HorizontalAlignment="Left" Margin="457,190,0,0" VerticalAlignment="Top"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="Home Phone:" HorizontalAlignment="Left" Margin="160,256,0,0" VerticalAlignment="Top"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="Mobile Phone:" HorizontalAlignment="Left" Margin="155,289,0,0" VerticalAlignment="Top"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="Next To Kin:" HorizontalAlignment="Left" Margin="541,125,0,0" VerticalAlignment="Top"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="PPSN:" HorizontalAlignment="Left" Margin="581,224,0,0" VerticalAlignment="Top"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="Username:" HorizontalAlignment="Left" Margin="551,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.436,1.25"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="Password:" HorizontalAlignment="Left" Margin="555,290,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.436,1.25"/>
+            <Label Foreground="LightGray" FontSize="15px" Content="Employee Type:" HorizontalAlignment="Left" Margin="517,92,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.436,1.25"/>
+            <TextBox x:Name="FirstName" Style="{StaticResource Rounded_Input}" Height="28" Width="172" Background="White"  Foreground="#FF82959C" Margin="263,125,589.8,447" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="LastName" Style="{StaticResource Rounded_Input}" Height="28" Width="172" Background="White"  Foreground="#FF82959C" Margin="263,158,589.8,414" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="StreetAddress" Style="{StaticResource Rounded_Input}" Height="28" Width="172" Background="White"  Foreground="#FF82959C" Margin="263,191,589.8,381" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="Email" Style="{StaticResource Rounded_Input}" Height="28" Width="172" Background="White"  Foreground="#FF82959C" Margin="263,223,589.8,349" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="HomePhone" Style="{StaticResource Rounded_Input}" Height="28" Width="172" Background="White"  Foreground="#FF82959C" Margin="263,256,589.8,316" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="MobilePhone" Style="{StaticResource Rounded_Input}" Height="28" Width="172" Background="White"  Foreground="#FF82959C" Margin="263,289,589.8,283" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="NextToKin" Style="{StaticResource Rounded_Input}" Height="28" Width="171" Background="White"  Foreground="#FF82959C" Margin="641,125,212.8,447" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="NextToKinPhone" Style="{StaticResource Rounded_Input}" Height="28" Width="171" Background="White"  Foreground="#FF82959C" Margin="641,158,212.8,414" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="NextToKinRelation" Style="{StaticResource Rounded_Input}" Height="28" Width="171" Background="White"  Foreground="#FF82959C" Margin="641,191,212.8,381" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="PPSN" Style="{StaticResource Rounded_Input}" Height="28" Width="171" Background="White"  Foreground="#FF82959C" Margin="641,224,212.8,348" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="Username" Style="{StaticResource Rounded_Input}" Height="28" Width="171" Background="White"  Foreground="#FF82959C" Margin="641,257,212.8,315" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <TextBox x:Name="Password" Style="{StaticResource Rounded_Input}" Height="28" Width="171" Background="White"  Foreground="#FF82959C" Margin="641,290,212.8,282" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="15,0,0,0"/>
+            <ComboBox x:Name="EmployeeType" Height="28" Width="171" Background="White"  Foreground="#FF82959C" Margin="641,92,212.8,480" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="0,0,0,0">
+                <ComboBoxItem x:Name="BarManager" Content="Bar Manager" HorizontalAlignment="Left" Width="200"/>
+                <ComboBoxItem x:Name="ReceptionManager" Content="Reception Manager" HorizontalAlignment="Left" Width="200"/>
+                <ComboBoxItem x:Name="CleaningManager" Content="Cleaning Manager" HorizontalAlignment="Left" Width="200"/>
+                <ComboBoxItem x:Name="StockManager" Content="Stock Manager" HorizontalAlignment="Left" Width="200"/>
+                <ComboBoxItem x:Name="LeisureCentreManager" Content="Leisure Centre Manager" HorizontalAlignment="Left" Width="200"/>
+                <ComboBoxItem x:Name="Receptionist" Content="Receptionist" HorizontalAlignment="Left" Width="200"/>
+                <ComboBoxItem x:Name="Cleaner" Content="Cleaner" HorizontalAlignment="Left" Width="200"/>
+                <ComboBoxItem x:Name="BarStaff" Content="Bar Staff" HorizontalAlignment="Left" Width="200"/>
+                <ComboBoxItem x:Name="LeisureCentreStaff" Content="Leisure Centre Staff" HorizontalAlignment="Left" Width="200"/>
+                <ComboBoxItem x:Name="CleaningStaff" Content="Cleaning Staff" HorizontalAlignment="Left" Width="200"/>
+            </ComboBox>
+            <Button x:Name="goBack_button" Content="Go Back" Background="#EB4F70" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="171" Margin="641,333,212.8,235" Click="goBack_button_Click"/>
+        </Grid>
+    </Grid>
+</UserControl>
+
+<!--Style="{StaticResource Rounded_Input_Combo}"-->
